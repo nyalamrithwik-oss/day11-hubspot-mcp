@@ -1,0 +1,66 @@
+# HubSpot CRM MCP Server - .gitignore
+# Day 11 - December 28, 2025
+
+# Virtual Environment
+venv/
+venv2/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment Variables (CRITICAL - keeps tokens private!)
+.env
+.env.local
+.env.*.local
+
+# OAuth Tokens (NEVER commit!)
+tokens.json
+refresh_token.txt
+access_token.txt
+*.token
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+hubspot_*.log
+
+# Test outputs
+test_results/
+__pycache__/
+.pytest_cache/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
