@@ -1,9 +1,9 @@
 # HubSpot CRM MCP Server
 
-   ![Python](https://img.shields.io/badge/python-3.11-blue)
-   ![MCP](https://img.shields.io/badge/MCP-1.25.0-green)
-   ![Tests](https://img.shields.io/badge/tests-5%2F5%20passing-brightgreen)
-   ![License](https://img.shields.io/badge/license-MIT-blue)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![MCP](https://img.shields.io/badge/MCP-1.25.0-green)
+![Tests](https://img.shields.io/badge/tests-5%2F5%20passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
    
 ## 1. Project Overview
 A production-ready MCP server that exposes 5 essential HubSpot CRM tools for automation, integration, and AI workflows. Built for Claude Desktop and portfolio demonstration.
